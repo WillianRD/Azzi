@@ -5,7 +5,7 @@ import { LivroPageComponent } from './livro-page/livro-page.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, PageComponent, LivroPageComponent],
+  imports: [RouterOutlet, PageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
